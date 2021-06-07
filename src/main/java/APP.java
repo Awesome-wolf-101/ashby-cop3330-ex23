@@ -22,10 +22,12 @@ public class APP {
             if(UserAnswer2.equals("y"))
             {
                 System.out.println("Clean terminals and try starting again.");
+                System.exit(0);
             }
             else
             {
                 System.out.println("Replace cables and try again.");
+                System.exit(0);
             }
         }
         else
@@ -35,6 +37,7 @@ public class APP {
             if(UserAnswer3.equals("y"))
             {
                 System.out.println("Replace the Battery");
+                System.exit(0);
             }
             else
             {
@@ -43,6 +46,7 @@ public class APP {
                 if(UserAnswer4.equals("y"))
                 {
                     System.out.println("Check spark plug connections.");
+                    System.exit(0);
                 }
                 else
                 {
@@ -56,16 +60,19 @@ public class APP {
                         if(UserAnswer6.equals("y"))
                         {
                             System.out.println("Get it in for service.");
+                            System.exit(0);
                         }
                         else
                         {
                             System.out.println("Check to ensure the choke is opening and closing.");
+                            System.exit(0);
                         }
 
                     }
                     else
                     {
                         System.out.println("This Should not be possible.");
+                        System.exit(0);
                     }
                 }
             }
